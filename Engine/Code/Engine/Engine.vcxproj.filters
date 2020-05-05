@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Math\AABB2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntRange.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVec2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Mat4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\OBB2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\AABBCollider2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Capsule2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BitmapFont.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\CapsuleCollider2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Clock.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\ButtonKeyState.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Collider2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Collision2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\AnalogJoystick.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ColorGradient.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ConstantBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\CPUMesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Develop\DebugRenderer.cpp">
+      <Filter>Develop</Filter>
+    </ClCompile>
+    <ClCompile Include="Develop\DevConsole.cpp">
+      <Filter>Develop</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DepthStencilTargetView.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\DiskCollider2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ErrorWarningAssert.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\EventSystem.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\FloatRange.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GPUMesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Image.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\IndexBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Material.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathUtils.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Model.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\NamedStrings.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\OBBCollider2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsSystem.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\RawNoise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderBufferLayout.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderContext.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderTargetView.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Rgba.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Rigidbody2D.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\RNG.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Sampler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Shader.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Texture2D.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\TextureView2D.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UILabel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIRadioGroup.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UISlider.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Vertex_PCU.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Vertex_PCUNT.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\SmoothNoise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteAnimationDef.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteDef.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StringUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteSheet.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tag.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\VertexBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Time.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\TinyXML2\tinyxml2.cpp">
+      <Filter>3rdParty\TinaXML2</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XmlUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\WindowContext.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\XboxController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\VertexUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\EventProc.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Capsule3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Ray.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Develop\UnitTest.cpp">
+      <Filter>Develop</Filter>
+    </ClCompile>
+    <ClCompile Include="Develop\Callstack.cpp">
+      <Filter>Develop</Filter>
+    </ClCompile>
+    <ClCompile Include="Develop\Memory.cpp">
+      <Filter>Develop</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Semaphore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Develop\Log.cpp">
+      <Filter>Develop</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\AsyncCircularQueue.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_demo.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_draw.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_widgets.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_impl_dx11.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_impl_win32.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UISystem.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Develop\Profile.cpp">
+      <Filter>Develop</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Job.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Py3.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Convex.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math\AABB2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntRange.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVec2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Mat4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\OBB2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.h">
+      <Filter>3rdParty\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.hpp">
+      <Filter>3rdParty\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_codec.h">
+      <Filter>3rdParty\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_common.h">
+      <Filter>3rdParty\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_dsp.h">
+      <Filter>3rdParty\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_dsp_effects.h">
+      <Filter>3rdParty\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_errors.h">
+      <Filter>3rdParty\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_output.h">
+      <Filter>3rdParty\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\AABBCollider2D.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Capsule2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Camera.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BitmapFont.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\CapsuleCollider2D.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Clock.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\ButtonKeyState.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Collider2D.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Collision2D.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\AnalogJoystick.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioSystem.hpp">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ColorGradient.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\CPUMesh.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Develop\DebugRenderer.hpp">
+      <Filter>Develop</Filter>
+    </ClInclude>
+    <ClInclude Include="Develop\DevConsole.hpp">
+      <Filter>Develop</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DepthStencilTargetView.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\DiskCollider2D.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\EngineCommon.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ErrorWarningAssert.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\EventSystem.hpp">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\FloatRange.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Image.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputSystem.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Material.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtils.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Model.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\NamedStrings.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsSystem.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\OBBCollider2D.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\RawNoise.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderBuffer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderBufferLayout.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderCommon.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderContext.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderTargetView.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderTypes.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Rgba.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Rigidbody2D.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\RNG.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Sampler.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Shader.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\stb\stb_image.h">
+      <Filter>3rdParty\stbi</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Texture2D.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\TextureView2D.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIRadioGroup.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIWidget.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Vertex_PCUNT.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Vertex_PCU.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SmoothNoise.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteAnimationDef.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteDef.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StringUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteSheet.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tag.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Time.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\TinyXML2\tinyxml2.h">
+      <Filter>3rdParty\TinaXML2</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Transform2D.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XmlUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\WindowContext.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\XboxController.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VertexUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\TypedValue.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\EventProc.hpp">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Trigger2D.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Ray.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Capsule3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Develop\UnitTest.hpp">
+      <Filter>Develop</Filter>
+    </ClInclude>
+    <ClInclude Include="Develop\Profile.hpp">
+      <Filter>Develop</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\AsyncQueue.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Develop\Callstack.hpp">
+      <Filter>Develop</Filter>
+    </ClInclude>
+    <ClInclude Include="Develop\Memory.hpp">
+      <Filter>Develop</Filter>
+    </ClInclude>
+    <ClInclude Include="Develop\Log.hpp">
+      <Filter>Develop</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Semaphore.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\AsyncCircularQueue.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imconfig.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui_internal.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imstb_rectpack.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imstb_textedit.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imstb_truetype.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui_impl_dx11.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui_impl_win32.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UISystem.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GPUMesh.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Job.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\stb\stb_image_write.h">
+      <Filter>3rdParty\stbi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\abstract.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\accu.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\asdl.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\ast.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bitset.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bltinmodule.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\boolobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bytearrayobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bytes_methods.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bytesobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\cellobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\ceval.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\classobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\code.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\codecs.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\compile.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\complexobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\context.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\datetime.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\descrobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\dictobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\dtoa.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\dynamic_annotations.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\enumobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\errcode.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\eval.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\fileobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\fileutils.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\floatobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\frameobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\funcobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\genobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\graminit.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\grammar.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\import.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\intrcheck.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\iterobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\listobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\longintrepr.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\longobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\marshal.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\memoryobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\metagrammar.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\methodobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\modsupport.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\moduleobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\namespaceobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\node.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\object.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\objimpl.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\odictobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\opcode.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\osdefs.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\osmodule.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\parsetok.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\patchlevel.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pgen.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pgenheaders.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\py_curses.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyarena.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyatomic.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pycapsule.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyctype.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pydebug.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pydtrace.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyerrors.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyexpat.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyfpe.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyhash.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pylifecycle.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pymacconfig.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pymacro.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pymath.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pymem.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyport.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pystate.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pystrcmp.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pystrhex.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pystrtod.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\Python.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\Python-ast.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pythonrun.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pythread.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pytime.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\rangeobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\setobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\sliceobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\structmember.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\structseq.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\symtable.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\sysmodule.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\token.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\traceback.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\tupleobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\typeslots.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\ucnhash.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\unicodeobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\warnings.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\weakrefobject.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyconfig.h">
+      <Filter>3rdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Py3.hpp">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Convex.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{e4c2baad-8e8b-4f44-a60b-cc388356bd18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{77eceb42-7ff6-474a-9edb-6c5cc3eed957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\FMOD">
+      <UniqueIdentifier>{e27ffce1-931d-4660-a394-ba2540d5be40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{65dc5894-449e-44e9-88ef-6e57ff0b20fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{1cf0d717-f9a3-4f4b-9b73-a49402294ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{6bea2920-9f2b-4fea-aef4-f561df696e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{1124ca0e-69cd-4106-a6de-e03dd250c48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{733adb71-ebf4-4145-9860-c79d9d8a0866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop">
+      <UniqueIdentifier>{34ff0fba-c7ca-402a-8dab-709e92b5760c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\stbi">
+      <UniqueIdentifier>{0b88c33a-e7aa-4d73-8500-ac881adf53bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{de40373a-b34f-4972-b30d-1a9e05394335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{1e993480-c33a-47fa-9ee3-1ab2c7643769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\TinaXML2">
+      <UniqueIdentifier>{f5b0d7c5-a053-4018-993c-8955044fb65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\imgui">
+      <UniqueIdentifier>{bebc6f0b-7d68-471a-a960-cf610fadbb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\python">
+      <UniqueIdentifier>{c37f23a5-0090-4069-bdf1-8f71920fcb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{e390feb4-1b07-4160-b8bd-8971674ff3bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
